@@ -6,6 +6,7 @@ import { StockPanelComponent } from './stock-panel.component';
   imports: [
     CommonModule
   ],
-  declarations: [StockPanelComponent]
+  declarations: [StockPanelComponent],
+  exports:[StockPanelComponent]
 })
 export class StockPanelModule { }
